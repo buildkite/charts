@@ -38,6 +38,9 @@ spec:
       imagePullSecrets:
       - name: {{ template "fullname" . }}-dockerconfigjson
       {{- end }}
+      hostIPC: {{ .Values.hostIPC }}
+      hostNetwork: {{ .Values.hostNetwork }}
+      hostPID: {{ .Values.hostPID }}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ default .Chart.AppVersion .Values.image.tag }}"

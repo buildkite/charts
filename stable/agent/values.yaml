@@ -24,6 +24,11 @@ enableHostDocker: true
 securityContext: {}
   # privileged: true
 
+# Enable pod privileges
+hostIPC: false
+hostNetwork: false
+hostPID: false
+
 # Enable security context configuration for the pod
 podSecurityContext: {}
   # fsGroup: 1000

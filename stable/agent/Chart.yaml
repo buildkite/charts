@@ -1,7 +1,7 @@
 apiVersion: v1
 description: Buildkite Agent Chart
 name: agent
-version: 0.5.2
+version: 0.6.0
 appVersion: 3.25.0
 icon: https://buildkite.com/_next/static/assets/assets/images/brand-assets/buildkite-logo-portrait-on-light-61fc0230.png
 keywords:

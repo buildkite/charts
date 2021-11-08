@@ -72,6 +72,9 @@ Parameter | Description | Default
 `enableHostDocker` | Mount docker socket | `true`
 `podSecurityContext` | Pod security context to set | `{}`
 `securityContext` | Container security context to set | `{}`
+`hostIPC` | Use the host's ipc namespace | `false`
+`hostNetwork` | Use the host's network namespace. If this option is set, the ports that will be used must be specified | `false`
+`hostPID` | Use the host's pid namespace | `false`
 `extraEnv` | Agent extra env vars | `nil`
 `privateSshKey` | Agent ssh key for git access | `nil`
 `registryCreds.gcrServiceAccountKey` | GCP Service account json key | `nil`

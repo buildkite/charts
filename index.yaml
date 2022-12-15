@@ -3,7 +3,28 @@ entries:
   agent:
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.323914279Z"
+    created: "2022-12-15T23:59:24.461056589Z"
+    description: Buildkite Agent Chart
+    digest: 768dff9a94c220677d80a0a15c275ff1c4e2b96dd94ed5e8fd58795643a29637
+    home: https://buildkite.com
+    icon: https://buildkite.com/_next/static/assets/assets/images/brand-assets/buildkite-logo-portrait-on-light-61fc0230.png
+    keywords:
+    - kubernetes deployment
+    - helm release
+    - continuous deployment
+    - continuous integration
+    maintainers:
+    - email: rmocius@gmail.com
+      name: rimusz
+    name: agent
+    sources:
+    - https://github.com/buildkite/agent
+    urls:
+    - https://buildkite.github.io/charts/agent-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v1
+    appVersion: 3.25.0
+    created: "2022-12-15T23:59:24.459096107Z"
     description: Buildkite Agent Chart
     digest: 1ff05c275b4bb9649e3d9a5bc9ed480acf3f1c9c980db3310907189de42bc2eb
     home: https://buildkite.com
@@ -24,7 +45,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.323045548Z"
+    created: "2022-12-15T23:59:24.45753897Z"
     description: Buildkite Agent Chart
     digest: 9c6c2409a6b2fd707b697b149844544df2c6fbf8663976b7748390e3bc1d5f21
     home: https://buildkite.com
@@ -45,7 +66,7 @@ entries:
     version: 0.5.6
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.32159079Z"
+    created: "2022-12-15T23:59:24.456770137Z"
     description: Buildkite Agent Chart
     digest: 6aec041c2d5653252401dcda7247d57366a52d31d8a9e3b3dcdf6a195f4089d2
     home: https://buildkite.com
@@ -66,7 +87,7 @@ entries:
     version: 0.5.5
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.319277151Z"
+    created: "2022-12-15T23:59:24.455939863Z"
     description: Buildkite Agent Chart
     digest: 6ddcf34d6b5dd6829ab812148fb4a22e87b02e2a3694c5698691ee7e64d7d58f
     home: https://buildkite.com
@@ -87,7 +108,7 @@ entries:
     version: 0.5.4
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.31848633Z"
+    created: "2022-12-15T23:59:24.455141055Z"
     description: Buildkite Agent Chart
     digest: 69a78d25c7fe821536317b641d9192a1b1a38bb951166c145947831300f25897
     home: https://buildkite.com
@@ -108,7 +129,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.317711623Z"
+    created: "2022-12-15T23:59:24.454359177Z"
     description: Buildkite Agent Chart
     digest: ef2619e7483b0238eeca5cd7de0869a3d592d3c7ede1660f6c4aa6b101b888d5
     home: https://buildkite.com
@@ -129,7 +150,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.316901929Z"
+    created: "2022-12-15T23:59:24.453625948Z"
     description: Buildkite Agent Chart
     digest: 6e1d83d15bb7008836650969e72e655d116ff75d9421a2734b01e0a1e955e192
     home: https://buildkite.com
@@ -150,7 +171,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.316111128Z"
+    created: "2022-12-15T23:59:24.452932297Z"
     description: Buildkite Agent Chart
     digest: 1fb35314305de69eae3d36937944dc86ebb8f60022e2e30e6391f3f72b2ce100
     home: https://buildkite.com
@@ -171,7 +192,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.315391618Z"
+    created: "2022-12-15T23:59:24.452218305Z"
     description: Buildkite Agent Chart
     digest: 5caee5b835a5a6e7c8269687a766a6550919fbee76c1559721ba50f9c8808b09
     home: https://buildkite.com
@@ -192,7 +213,7 @@ entries:
     version: 0.4.8
   - apiVersion: v1
     appVersion: 3.25.0
-    created: "2022-09-10T09:31:48.314662887Z"
+    created: "2022-12-15T23:59:24.451512193Z"
     description: Buildkite Agent Chart
     digest: 9991233e67e42ae664614f2568adfa9ec485b406fd865f8af7714855d3707208
     home: https://buildkite.com
@@ -213,7 +234,7 @@ entries:
     version: 0.4.7
   - apiVersion: v1
     appVersion: 3.22.1
-    created: "2022-09-10T09:31:48.313945038Z"
+    created: "2022-12-15T23:59:24.450765369Z"
     description: Buildkite Agent Chart
     digest: 956222c7481a363e8145e27cd92c454da7921acad016b7bd3ba3b81b614af144
     home: https://buildkite.com
@@ -234,7 +255,7 @@ entries:
     version: 0.4.6
   - apiVersion: v1
     appVersion: 3.22.1
-    created: "2022-09-10T09:31:48.313222603Z"
+    created: "2022-12-15T23:59:24.450072109Z"
     description: Buildkite Agent Chart
     digest: 358c761a4665f39601e97923fd9b1d3a33d072271d6ea628eacac310b56007f2
     home: https://buildkite.com
@@ -255,7 +276,7 @@ entries:
     version: 0.4.4
   - apiVersion: v1
     appVersion: 3.22.1
-    created: "2022-09-10T09:31:48.312454556Z"
+    created: "2022-12-15T23:59:24.449324932Z"
     description: Buildkite Agent Chart
     digest: 90105959aa168932eda390d3473b8cf981c8da8115397b8a0243c9780cde9be6
     home: https://buildkite.com
@@ -276,7 +297,7 @@ entries:
     version: 0.4.3
   - apiVersion: v1
     appVersion: 3.22.1
-    created: "2022-09-10T09:31:48.311730908Z"
+    created: "2022-12-15T23:59:24.448058751Z"
     description: Buildkite Agent Chart
     digest: 2f2ff1a6d220a618797bee7670c63329c7f8bb409a1c80e77a1f188d76edd11d
     home: https://buildkite.com
@@ -297,7 +318,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     appVersion: 3.22.1
-    created: "2022-09-10T09:31:48.311017018Z"
+    created: "2022-12-15T23:59:24.445855831Z"
     description: Buildkite Agent Chart
     digest: f234a71b692d4dc42e2dca36cb95c12abf05d8e02d610ac79f3eb7b5eb6076e9
     home: https://buildkite.com
@@ -318,7 +339,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 3.22.1
-    created: "2022-09-10T09:31:48.310260934Z"
+    created: "2022-12-15T23:59:24.445089296Z"
     description: Buildkite Agent Chart
     digest: 93002c0f032d25d37d7b186c5e57286d3e343c875aaf77422b237d281e39175e
     home: https://buildkite.com
@@ -339,7 +360,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 3.17.0
-    created: "2022-09-10T09:31:48.302879289Z"
+    created: "2022-12-15T23:59:24.439694568Z"
     description: Buildkite Agent Chart
     digest: b762113ff3676b16eb7d220efa691c646cb96e92100d67c8e846229639189b0c
     home: https://buildkite.com
@@ -360,7 +381,7 @@ entries:
     version: 0.3.18
   - apiVersion: v1
     appVersion: 3.17.0
-    created: "2022-09-10T09:31:48.302120026Z"
+    created: "2022-12-15T23:59:24.43889303Z"
     description: Buildkite Agent Chart
     digest: 9b31d625e51f79a37e3ff182918ea4322239b0ef70326e695456ce6ed0c4592a
     home: https://buildkite.com
@@ -381,7 +402,7 @@ entries:
     version: 0.3.17
   - apiVersion: v1
     appVersion: 3.17.0
-    created: "2022-09-10T09:31:48.301386592Z"
+    created: "2022-12-15T23:59:24.438171271Z"
     description: Buildkite Agent Chart
     digest: bcc746490d80c03f66d6e7726afd9c5dd90ce021314041e17aea918af3168ee9
     home: https://buildkite.com
@@ -402,7 +423,7 @@ entries:
     version: 0.3.16
   - apiVersion: v1
     appVersion: 3.17.0
-    created: "2022-09-10T09:31:48.300672312Z"
+    created: "2022-12-15T23:59:24.437388835Z"
     description: Buildkite Agent Chart
     digest: 0f531ca935c5e4fee2adeb7392d55351839654662d19374569b9a7ff248ad9dd
     home: https://buildkite.com
@@ -423,7 +444,7 @@ entries:
     version: 0.3.14
   - apiVersion: v1
     appVersion: 3.17.0
-    created: "2022-09-10T09:31:48.299890213Z"
+    created: "2022-12-15T23:59:24.436632707Z"
     description: Buildkite Agent Chart
     digest: 0a3c3431023946d9d6897e4eed6c3fa5d74f97a7df6eaa03dff8f31ff1b0676a
     home: https://buildkite.com
@@ -444,7 +465,7 @@ entries:
     version: 0.3.13
   - apiVersion: v1
     appVersion: 3.17.0
-    created: "2022-09-10T09:31:48.2992047Z"
+    created: "2022-12-15T23:59:24.435848906Z"
     description: Buildkite Agent Chart
     digest: c73cce6835ade3c2566b2b0f4fd2ce08d00807072a8372e82f3ed16b5a93a1aa
     home: https://buildkite.com
@@ -465,7 +486,7 @@ entries:
     version: 0.3.12
   - apiVersion: v1
     appVersion: 3.17.0
-    created: "2022-09-10T09:31:48.298484889Z"
+    created: "2022-12-15T23:59:24.433964483Z"
     description: Buildkite Agent Chart
     digest: 946108f788cc314c7cf982c16cf90d765b13d2ec85ddc969689b7d245e6b2ffd
     home: https://buildkite.com
@@ -486,7 +507,7 @@ entries:
     version: 0.3.11
   - apiVersion: v1
     appVersion: 3.12.0
-    created: "2022-09-10T09:31:48.297281382Z"
+    created: "2022-12-15T23:59:24.432836555Z"
     description: Buildkite Agent Chart
     digest: fc5115e5488ed9d3274985eee0a94207cb7ede82ab3f4c6185fe682dbf9e94ab
     home: https://buildkite.com
@@ -507,7 +528,7 @@ entries:
     version: 0.3.10
   - apiVersion: v1
     appVersion: 3.12.0
-    created: "2022-09-10T09:31:48.308582629Z"
+    created: "2022-12-15T23:59:24.444299416Z"
     description: Buildkite Agent Chart
     digest: 677aac108d86600f4d813e37afbab4e0457332aca81366aded8efe074726457e
     home: https://buildkite.com
@@ -528,7 +549,7 @@ entries:
     version: 0.3.9
   - apiVersion: v1
     appVersion: 3.12.0
-    created: "2022-09-10T09:31:48.307294881Z"
+    created: "2022-12-15T23:59:24.443642022Z"
     description: Buildkite Agent Chart
     digest: ac837f6ffb56c47a7c8d7cf660211538982bf15b25b1987bab84edf457d886c2
     home: https://buildkite.com
@@ -549,7 +570,7 @@ entries:
     version: 0.3.8
   - apiVersion: v1
     appVersion: 3.12.0
-    created: "2022-09-10T09:31:48.306389268Z"
+    created: "2022-12-15T23:59:24.443023619Z"
     description: Buildkite Agent Chart
     digest: 2414356a80ad0692ebeb770fb7152e35df5d69a8ffd746d5792305944fd1c137
     home: https://buildkite.com
@@ -570,7 +591,7 @@ entries:
     version: 0.3.7
   - apiVersion: v1
     appVersion: 3.5.4
-    created: "2022-09-10T09:31:48.305792736Z"
+    created: "2022-12-15T23:59:24.442410989Z"
     description: Buildkite Agent Chart
     digest: bfb9fd8678507683e7d971d0c6f5d44c29b1e3931db428e46099ab6ec49dc969
     home: https://buildkite.com
@@ -591,7 +612,7 @@ entries:
     version: 0.3.6
   - apiVersion: v1
     appVersion: 3.5.4
-    created: "2022-09-10T09:31:48.305185666Z"
+    created: "2022-12-15T23:59:24.441845191Z"
     description: Buildkite Agent Chart
     digest: 9ab53da6671f38766e2df2a906e8de12cef00a226a20a1a6047797f48744e7ed
     home: https://buildkite.com
@@ -612,7 +633,7 @@ entries:
     version: 0.3.5
   - apiVersion: v1
     appVersion: 3.5.4
-    created: "2022-09-10T09:31:48.304594015Z"
+    created: "2022-12-15T23:59:24.441268278Z"
     description: Buildkite Agent Chart
     digest: 8c515ac52d0f67430e1741c1aa03fa2843fb750ac2ff69fe0e55f015eb364616
     home: https://buildkite.com
@@ -633,7 +654,7 @@ entries:
     version: 0.3.4
   - apiVersion: v1
     appVersion: 3.5.4
-    created: "2022-09-10T09:31:48.30401148Z"
+    created: "2022-12-15T23:59:24.440727407Z"
     description: Buildkite Agent Chart
     digest: d079e9835b7a5d0c90b433fdfa514fd34fc501c4d23b99c65205b14f021dcc11
     home: https://buildkite.com
@@ -654,7 +675,7 @@ entries:
     version: 0.3.3
   - apiVersion: v1
     appVersion: 3.5.4
-    created: "2022-09-10T09:31:48.303446365Z"
+    created: "2022-12-15T23:59:24.440210134Z"
     description: Buildkite Agent Chart
     digest: e197ce8310b60251f12e0db492356a1bc9b0d99f25788e86b8c3984077242533
     home: https://buildkite.com
@@ -675,7 +696,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 3.5.4
-    created: "2022-09-10T09:31:48.295588273Z"
+    created: "2022-12-15T23:59:24.431585492Z"
     description: Buildkite Agent Chart
     digest: adc4da85c2b3f20a4757beafee16deb37d8a237009b88695b55c7b737487318a
     home: https://buildkite.com
@@ -694,4 +715,4 @@ entries:
     urls:
     - https://buildkite.github.io/charts/agent-0.3.1.tgz
     version: 0.3.1
-generated: "2022-09-10T09:31:48.294147153Z"
+generated: "2022-12-15T23:59:24.430098581Z"

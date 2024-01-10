@@ -79,6 +79,7 @@ Parameter | Description | Default
 `agent.externalSecretSSHKey` | Name of the key in the above secret where the agent private SSH is located | `nil`
 `agent.token` | Agent token | Must be specified unless `agent.externalSecretName` is set
 `agent.tags` | Agent tags | `role=agent`
+`agent.annotation` | Extra annotations for the generated Deployment | `{}`
 `enableHostDocker` | Mount docker socket | `true`
 `podSecurityContext` | Pod security context to set | `{}`
 `securityContext` | Container security context to set | `{}`

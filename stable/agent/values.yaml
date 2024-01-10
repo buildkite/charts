@@ -19,6 +19,8 @@ agent:
   externalSecretName: ""
   externalSecretTokenKey: "agent-token"
   externalSecretSSHKey: ""
+  # Agent Deployment annotations
+  annotations: {}
 
 # Enable mounting the hosts docker socket into the agent container
 enableHostDocker: true

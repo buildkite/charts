@@ -1,5 +1,5 @@
 # ⚠️ Deprecation Notice
-We've since iterated on other solutions for using Buildkite with k8s. Please check out [github.com/buildkite/agent-stack-k8s](github.com/buildkite/agent-stack-k8s) for a supported solution. We'll continue to accept PRs for this repository, but won't be doing any active maintenance. 
+We've since iterated on other solutions for using Buildkite with k8s. Please check out [github.com/buildkite/agent-stack-k8s](https://github.com/buildkite/agent-stack-k8s) for a supported solution. We'll continue to accept PRs for this repository, but won't be doing any active maintenance. 
 
 # Buildkite Helm Charts Repository 
 

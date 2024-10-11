@@ -44,4 +44,4 @@ release:
 	cd dist-repo && \
 		git add *.tgz index.yaml && \
 		git commit --message "Update to buildkite/charts@${COMMIT}" && \
-		git push https://dummy:$${GH_TOKEN}@github.com/buildkite/charts.git gh-pages
+		git push https://buildkite-systems:$${GH_TOKEN}@github.com/buildkite/charts.git gh-pages

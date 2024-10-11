@@ -5,7 +5,12 @@ env:
   GIT_COMMITTER_EMAIL: "support@buildkite.com"
 
 steps:
-  - label: ":shipit:" 
+  - label: ":shipit:"
     command: "make build release"
     concurrency_group: "${BUILDKITE_PIPELINE_SLUG}/deploy"
     concurrency: 1
+    plugins:
+      - aws-assume-role-with-web-identity#v1.0.0:
+          role-arn: arn:aws:iam::445615400570:role/pipeline-buildkite-helm-charts-deploy
+      - aws-ssm#v1.0.0:
+            GH_TOKEN: /pipelines/buildkite/helm-charts-deploy/gh-token

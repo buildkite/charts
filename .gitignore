@@ -1,2 +1,5 @@
 /dist-repo
 /tmp
+node_modules
+wharf/data
+wharf/web/dist

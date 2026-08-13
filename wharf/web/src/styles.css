@@ -1,0 +1,80 @@
+:root {
+  --bg: #0b1220;
+  --bg-2: #111827;
+  --bg-3: #1a2333;
+  --line: #243044;
+  --text: #e8eef7;
+  --muted: #8ea0b8;
+  --teal: #5eead4;
+  --amber: #fbbf24;
+  --rose: #fb7185;
+  --font: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  font-family: var(--font);
+  background: radial-gradient(1200px 600px at 10% -10%, #122033, var(--bg));
+  color: var(--text);
+}
+
+.app { display: grid; grid-template-columns: 280px 1fr 320px; height: 100%; }
+.sidebar, .computer { background: var(--bg-2); border-right: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; }
+.computer { border-right: 0; border-left: 1px solid var(--line); }
+.brand { padding: 20px 18px 12px; }
+.brand h1 { margin: 0; font-size: 18px; letter-spacing: 0.08em; text-transform: uppercase; }
+.brand p { margin: 6px 0 0; color: var(--muted); font-size: 12px; }
+.bots { overflow: auto; padding: 8px; flex: 1; }
+.bot {
+  display: flex; gap: 10px; align-items: center;
+  padding: 10px 10px; border-radius: 12px; cursor: pointer; border: 1px solid transparent;
+}
+.bot:hover { background: var(--bg-3); }
+.bot.active { background: #152033; border-color: #2a3d58; }
+.avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  display: grid; place-items: center; font-weight: 700; color: #0b1220; flex: none;
+}
+.bot-meta { min-width: 0; }
+.bot-meta strong { display: block; font-size: 14px; }
+.bot-meta span { color: var(--muted); font-size: 12px; }
+.side-actions { padding: 12px; display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--line); }
+button, .btn {
+  background: #1c2a3f; color: var(--text); border: 1px solid #31445f;
+  border-radius: 10px; padding: 8px 12px; cursor: pointer; font: inherit;
+}
+button.primary { background: var(--teal); color: #04221c; border-color: transparent; font-weight: 650; }
+button.danger { background: #3a1d28; border-color: #5a2a38; color: var(--rose); }
+button.allow { background: #12352f; border-color: #1e5a4e; color: var(--teal); }
+input, textarea, select {
+  width: 100%; background: #0e1624; color: var(--text); border: 1px solid #2a3d58;
+  border-radius: 10px; padding: 8px 10px; font: inherit;
+}
+.chat { display: flex; flex-direction: column; min-width: 0; }
+.chat-head { padding: 16px 20px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; }
+.messages { flex: 1; overflow: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.bubble { max-width: 72%; padding: 10px 12px; border-radius: 14px; white-space: pre-wrap; line-height: 1.45; }
+.bubble.user { margin-left: auto; background: #1d4e4a; }
+.bubble.assistant { background: var(--bg-3); }
+.bubble.receipt { background: transparent; border: 1px dashed #345; color: var(--muted); font-size: 12px; font-family: var(--mono); }
+.composer { padding: 14px; border-top: 1px solid var(--line); display: flex; gap: 8px; }
+.composer textarea { min-height: 52px; resize: none; }
+.panel { padding: 16px; overflow: auto; display: flex; flex-direction: column; gap: 14px; }
+.panel h2 { margin: 0; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.card { background: #0e1624; border: 1px solid var(--line); border-radius: 14px; padding: 12px; }
+.card h3 { margin: 0 0 8px; font-size: 14px; }
+.kv { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); margin: 4px 0; }
+.kv b { color: var(--text); font-weight: 550; }
+.step { font-size: 12px; font-family: var(--mono); padding: 6px 0; border-bottom: 1px solid #1c2a3f; }
+.step:last-child { border-bottom: 0; }
+.ok { color: var(--teal); }
+.bad { color: var(--rose); }
+.modal-bg { position: fixed; inset: 0; background: #0008; display: grid; place-items: center; }
+.modal { width: 420px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: grid; gap: 10px; }
+.empty { color: var(--muted); padding: 40px 20px; text-align: center; }
+@media (max-width: 960px) {
+  .app { grid-template-columns: 1fr; }
+  .computer, .sidebar { display: none; }
+}

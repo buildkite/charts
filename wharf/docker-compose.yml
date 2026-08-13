@@ -1,0 +1,22 @@
+services:
+  wharf:
+    build: .
+    ports:
+      - "8787:8787"
+    environment:
+      WHARF_HOST: 0.0.0.0
+      WHARF_PORT: 8787
+      WHARF_COMPUTER_PROVIDER: docker
+      WHARF_DATA_DIR: /data
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-https://openrouter.ai/api/v1}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-openai/gpt-4.1-mini}
+      BOX_TOKEN: ${BOX_TOKEN:-}
+      BOX_API: ${BOX_API:-https://ascii.dev/api/box/v1}
+    volumes:
+      - wharf-data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+
+volumes:
+  wharf-data:
